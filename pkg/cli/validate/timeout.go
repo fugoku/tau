@@ -1,8 +1,8 @@
 package validate
 
 import (
-	schemaCommon "github.com/taubyte/go-project-schema/common"
-	"github.com/taubyte/tau-cli/i18n"
+	"github.com/taubyte/tau/pkg/cli/i18n"
+	schemaCommon "github.com/taubyte/tau/pkg/schema/common"
 )
 
 func Time(s string) error {
@@ -12,7 +12,7 @@ func Time(s string) error {
 	}
 
 	if val == 0 {
-		return i18n.Time0Invalid
+		return i18n.ErrorTime0Invalid()
 	}
 
 	return nil

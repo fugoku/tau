@@ -4,10 +4,10 @@ import (
 	"os"
 	"path"
 
-	functionSpec "github.com/taubyte/go-specs/function"
-	librarySpec "github.com/taubyte/go-specs/library"
-	smartOpSpec "github.com/taubyte/go-specs/smartops"
-	websiteSpec "github.com/taubyte/go-specs/website"
+	functionSpec "github.com/taubyte/tau/pkg/specs/function"
+	librarySpec "github.com/taubyte/tau/pkg/specs/library"
+	smartOpSpec "github.com/taubyte/tau/pkg/specs/smartops"
+	websiteSpec "github.com/taubyte/tau/pkg/specs/website"
 )
 
 var (
